@@ -1,6 +1,5 @@
-// Typically we would store in {process.env.API_KEY}
-
-const API_KEY = '5fc5a2fdfebe6088374581f9116207d7';
+// Using environment variable for API key
+const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 
 
 
